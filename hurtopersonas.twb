@@ -1,0 +1,2584 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20202.20.0614.2338                               -->
+<workbook original-version='18.1' source-build='2020.2.2 (20202.20.0614.2338)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='HURTO_PERSONAS' inline='true' name='federated.0sqfkwa1rlf17316dzuou0u1c5zl' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='HURTO_PERSONAS' name='textscan.157m8k81cg3gtx10ofobd0b1r1uj'>
+            <connection class='textscan' directory='/Users/invitados/git/personal/visualizacion/chispa' filename='HURTO_PERSONAS.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.157m8k81cg3gtx10ofobd0b1r1uj' name='HURTO_PERSONAS.csv' table='[HURTO_PERSONAS#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='real' name='_id' ordinal='1' />
+            <column datatype='date' name='fecha' ordinal='2' />
+            <column datatype='string' name='departamento' ordinal='3' />
+            <column datatype='string' name='municipio' ordinal='4' />
+            <column datatype='string' name='dia_semana' ordinal='5' />
+            <column datatype='datetime' name='hora' ordinal='6' />
+            <column datatype='string' name='barrio' ordinal='7' />
+            <column datatype='string' name='zona' ordinal='8' />
+            <column datatype='string' name='clase_sitio' ordinal='9' />
+            <column datatype='string' name='arma_empleada' ordinal='10' />
+            <column datatype='string' name='movil_agresor' ordinal='11' />
+            <column datatype='string' name='movil_victima' ordinal='12' />
+            <column datatype='integer' name='edad' ordinal='13' />
+            <column datatype='string' name='sexo' ordinal='14' />
+            <column datatype='string' name='estado_civil' ordinal='15' />
+            <column datatype='string' name='pais_nacimiento' ordinal='16' />
+            <column datatype='string' name='clase_empleado' ordinal='17' />
+            <column datatype='string' name='profesion' ordinal='18' />
+            <column datatype='string' name='escolaridad' ordinal='19' />
+            <column datatype='integer' name='codigo_dane' ordinal='20' />
+            <column datatype='integer' name='cantidad' ordinal='21' />
+            <column datatype='integer' name='anio' ordinal='22' />
+            <column datatype='string' name='mes' ordinal='23' />
+            <column datatype='datetime' name='utc_datetime' ordinal='24' />
+            <column datatype='integer' name='dept_code_dane' ordinal='25' />
+            <column datatype='integer' name='muni_code_dane' ordinal='26' />
+            <column datatype='string' name='code_dane' ordinal='27' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.157m8k81cg3gtx10ofobd0b1r1uj' name='HURTO_PERSONAS.csv' table='[HURTO_PERSONAS#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='real' name='_id' ordinal='1' />
+            <column datatype='date' name='fecha' ordinal='2' />
+            <column datatype='string' name='departamento' ordinal='3' />
+            <column datatype='string' name='municipio' ordinal='4' />
+            <column datatype='string' name='dia_semana' ordinal='5' />
+            <column datatype='datetime' name='hora' ordinal='6' />
+            <column datatype='string' name='barrio' ordinal='7' />
+            <column datatype='string' name='zona' ordinal='8' />
+            <column datatype='string' name='clase_sitio' ordinal='9' />
+            <column datatype='string' name='arma_empleada' ordinal='10' />
+            <column datatype='string' name='movil_agresor' ordinal='11' />
+            <column datatype='string' name='movil_victima' ordinal='12' />
+            <column datatype='integer' name='edad' ordinal='13' />
+            <column datatype='string' name='sexo' ordinal='14' />
+            <column datatype='string' name='estado_civil' ordinal='15' />
+            <column datatype='string' name='pais_nacimiento' ordinal='16' />
+            <column datatype='string' name='clase_empleado' ordinal='17' />
+            <column datatype='string' name='profesion' ordinal='18' />
+            <column datatype='string' name='escolaridad' ordinal='19' />
+            <column datatype='integer' name='codigo_dane' ordinal='20' />
+            <column datatype='integer' name='cantidad' ordinal='21' />
+            <column datatype='integer' name='anio' ordinal='22' />
+            <column datatype='string' name='mes' ordinal='23' />
+            <column datatype='datetime' name='utc_datetime' ordinal='24' />
+            <column datatype='integer' name='dept_code_dane' ordinal='25' />
+            <column datatype='integer' name='muni_code_dane' ordinal='26' />
+            <column datatype='string' name='code_dane' ordinal='27' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[HURTO_PERSONAS.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[HURTO_PERSONAS.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HURTO_PERSONAS.csv_DB731CEE64104341B50C1D6154607D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_id</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[_id]</local-name>
+            <parent-name>[HURTO_PERSONAS.csv]</parent-name>
+            <remote-alias>_id</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HURTO_PERSONAS.csv_DB731CEE64104341B50C1D6154607D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>fecha</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[fecha]</local-name>
+            <parent-name>[HURTO_PERSONAS.csv]</parent-name>
+            <remote-alias>fecha</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HURTO_PERSONAS.csv_DB731CEE64104341B50C1D6154607D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>departamento</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[departamento]</local-name>
+            <parent-name>[HURTO_PERSONAS.csv]</parent-name>
+            <remote-alias>departamento</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HURTO_PERSONAS.csv_DB731CEE64104341B50C1D6154607D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>municipio</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[municipio]</local-name>
+            <parent-name>[HURTO_PERSONAS.csv]</parent-name>
+            <remote-alias>municipio</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HURTO_PERSONAS.csv_DB731CEE64104341B50C1D6154607D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>dia_semana</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[dia_semana]</local-name>
+            <parent-name>[HURTO_PERSONAS.csv]</parent-name>
+            <remote-alias>dia_semana</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HURTO_PERSONAS.csv_DB731CEE64104341B50C1D6154607D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hora</remote-name>
+            <remote-type>134</remote-type>
+            <local-name>[hora]</local-name>
+            <parent-name>[HURTO_PERSONAS.csv]</parent-name>
+            <remote-alias>hora</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Hour</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HURTO_PERSONAS.csv_DB731CEE64104341B50C1D6154607D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>barrio</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[barrio]</local-name>
+            <parent-name>[HURTO_PERSONAS.csv]</parent-name>
+            <remote-alias>barrio</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HURTO_PERSONAS.csv_DB731CEE64104341B50C1D6154607D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>zona</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[zona]</local-name>
+            <parent-name>[HURTO_PERSONAS.csv]</parent-name>
+            <remote-alias>zona</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HURTO_PERSONAS.csv_DB731CEE64104341B50C1D6154607D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>clase_sitio</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[clase_sitio]</local-name>
+            <parent-name>[HURTO_PERSONAS.csv]</parent-name>
+            <remote-alias>clase_sitio</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HURTO_PERSONAS.csv_DB731CEE64104341B50C1D6154607D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>arma_empleada</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[arma_empleada]</local-name>
+            <parent-name>[HURTO_PERSONAS.csv]</parent-name>
+            <remote-alias>arma_empleada</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HURTO_PERSONAS.csv_DB731CEE64104341B50C1D6154607D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>movil_agresor</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[movil_agresor]</local-name>
+            <parent-name>[HURTO_PERSONAS.csv]</parent-name>
+            <remote-alias>movil_agresor</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HURTO_PERSONAS.csv_DB731CEE64104341B50C1D6154607D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>movil_victima</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[movil_victima]</local-name>
+            <parent-name>[HURTO_PERSONAS.csv]</parent-name>
+            <remote-alias>movil_victima</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HURTO_PERSONAS.csv_DB731CEE64104341B50C1D6154607D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>edad</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[edad]</local-name>
+            <parent-name>[HURTO_PERSONAS.csv]</parent-name>
+            <remote-alias>edad</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HURTO_PERSONAS.csv_DB731CEE64104341B50C1D6154607D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>sexo</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[sexo]</local-name>
+            <parent-name>[HURTO_PERSONAS.csv]</parent-name>
+            <remote-alias>sexo</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HURTO_PERSONAS.csv_DB731CEE64104341B50C1D6154607D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>estado_civil</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[estado_civil]</local-name>
+            <parent-name>[HURTO_PERSONAS.csv]</parent-name>
+            <remote-alias>estado_civil</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HURTO_PERSONAS.csv_DB731CEE64104341B50C1D6154607D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pais_nacimiento</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[pais_nacimiento]</local-name>
+            <parent-name>[HURTO_PERSONAS.csv]</parent-name>
+            <remote-alias>pais_nacimiento</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HURTO_PERSONAS.csv_DB731CEE64104341B50C1D6154607D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>clase_empleado</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[clase_empleado]</local-name>
+            <parent-name>[HURTO_PERSONAS.csv]</parent-name>
+            <remote-alias>clase_empleado</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HURTO_PERSONAS.csv_DB731CEE64104341B50C1D6154607D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>profesion</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[profesion]</local-name>
+            <parent-name>[HURTO_PERSONAS.csv]</parent-name>
+            <remote-alias>profesion</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HURTO_PERSONAS.csv_DB731CEE64104341B50C1D6154607D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>escolaridad</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[escolaridad]</local-name>
+            <parent-name>[HURTO_PERSONAS.csv]</parent-name>
+            <remote-alias>escolaridad</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HURTO_PERSONAS.csv_DB731CEE64104341B50C1D6154607D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>codigo_dane</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[codigo_dane]</local-name>
+            <parent-name>[HURTO_PERSONAS.csv]</parent-name>
+            <remote-alias>codigo_dane</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HURTO_PERSONAS.csv_DB731CEE64104341B50C1D6154607D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cantidad</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[cantidad]</local-name>
+            <parent-name>[HURTO_PERSONAS.csv]</parent-name>
+            <remote-alias>cantidad</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HURTO_PERSONAS.csv_DB731CEE64104341B50C1D6154607D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>anio</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[anio]</local-name>
+            <parent-name>[HURTO_PERSONAS.csv]</parent-name>
+            <remote-alias>anio</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HURTO_PERSONAS.csv_DB731CEE64104341B50C1D6154607D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mes</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[mes]</local-name>
+            <parent-name>[HURTO_PERSONAS.csv]</parent-name>
+            <remote-alias>mes</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HURTO_PERSONAS.csv_DB731CEE64104341B50C1D6154607D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>utc_datetime</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[utc_datetime]</local-name>
+            <parent-name>[HURTO_PERSONAS.csv]</parent-name>
+            <remote-alias>utc_datetime</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HURTO_PERSONAS.csv_DB731CEE64104341B50C1D6154607D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>dept_code_dane</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[dept_code_dane]</local-name>
+            <parent-name>[HURTO_PERSONAS.csv]</parent-name>
+            <remote-alias>dept_code_dane</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HURTO_PERSONAS.csv_DB731CEE64104341B50C1D6154607D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>muni_code_dane</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[muni_code_dane]</local-name>
+            <parent-name>[HURTO_PERSONAS.csv]</parent-name>
+            <remote-alias>muni_code_dane</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HURTO_PERSONAS.csv_DB731CEE64104341B50C1D6154607D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>code_dane</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[code_dane]</local-name>
+            <parent-name>[HURTO_PERSONAS.csv]</parent-name>
+            <remote-alias>code_dane</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HURTO_PERSONAS.csv_DB731CEE64104341B50C1D6154607D46]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Tipo Sitio' datatype='string' name='[Clase Sitio (group)]' role='dimension' type='nominal'>
+        <calculation class='categorical-bin' column='[clase_sitio]' new-bin='true'>
+          <bin default-name='false' value='&quot;Otros sitios&quot;'>
+            <value>&quot;-&quot;</value>
+            <value>&quot;AEROPUERTO&quot;</value>
+            <value>&quot;ALCALDIA&quot;</value>
+            <value>&quot;ALIMENTADOR BUS M.I.O.&quot;</value>
+            <value>&quot;ALIMENTADOR BUS MEGABUS&quot;</value>
+            <value>&quot;ALIMENTADOR BUS TRANSMETRO&quot;</value>
+            <value>&quot;ALIMENTADOR BUS TRANSMILENIO&quot;</value>
+            <value>&quot;ALMACENES&quot;</value>
+            <value>&quot;ALOJAMIENTO&quot;</value>
+            <value>&quot;APARTAMENTO&quot;</value>
+            <value>&quot;APARTAMENTO EN CONJUNTO CERRADO&quot;</value>
+            <value>&quot;AREA DE VACUNACION&quot;</value>
+            <value>&quot;AUDITORIOS&quot;</value>
+            <value>&quot;BAHIA&quot;</value>
+            <value>&quot;BANCOS&quot;</value>
+            <value>&quot;BAÑOS&quot;</value>
+            <value>&quot;BARES, CANTINAS Y SIMILARES&quot;</value>
+            <value>&quot;BIBLIOTECA&quot;</value>
+            <value>&quot;BILLARES&quot;</value>
+            <value>&quot;BODEGAS Y SIMILARES&quot;</value>
+            <value>&quot;BOMBA DE GASOLINA&quot;</value>
+            <value>&quot;BOSQUES&quot;</value>
+            <value>&quot;BUS MASIVO INTEGRAL DE OCCIDENTE M.I.O.&quot;</value>
+            <value>&quot;BUS MEGABUS&quot;</value>
+            <value>&quot;BUS METROLINEA&quot;</value>
+            <value>&quot;BUS METROPLUS&quot;</value>
+            <value>&quot;BUS TRANSMETRO&quot;</value>
+            <value>&quot;BUS TRANSMILENIO&quot;</value>
+            <value>&quot;CAFE INTERNET&quot;</value>
+            <value>&quot;CAFETERIAS&quot;</value>
+            <value>&quot;CAJERO AUTOMATICO&quot;</value>
+            <value>&quot;CALLEJÓN&quot;</value>
+            <value>&quot;CANCHA DE FUTBOL&quot;</value>
+            <value>&quot;CANCHAS DE RANA&quot;</value>
+            <value>&quot;CAÑOS&quot;</value>
+            <value>&quot;CARCELES&quot;</value>
+            <value>&quot;CARRETERA&quot;</value>
+            <value>&quot;CARRIL EXCLUSIVO TRANSPORTE MASIVO&quot;</value>
+            <value>&quot;CASA DE LENOCINIO&quot;</value>
+            <value>&quot;CASA EN CONJUNTO CERRADO&quot;</value>
+            <value>&quot;CASAS DE APUESTAS&quot;</value>
+            <value>&quot;CASAS DE HABITACION&quot;</value>
+            <value>&quot;CASETA COMUNAL&quot;</value>
+            <value>&quot;CASETA VIGILANCIA CONJUNTO RESIDENCIAL&quot;</value>
+            <value>&quot;CASETA VIGILANCIA EMPRESAS&quot;</value>
+            <value>&quot;CASINOS&quot;</value>
+            <value>&quot;CEMENTERIO&quot;</value>
+            <value>&quot;CENTRO COMERCIAL&quot;</value>
+            <value>&quot;CENTRO RECREACIONAL&quot;</value>
+            <value>&quot;CENTRO TURÍSTICO&quot;</value>
+            <value>&quot;CENTROS RELIGIOSOS&quot;</value>
+            <value>&quot;CICLO RUTA&quot;</value>
+            <value>&quot;CLINICAS Y SIMILARES&quot;</value>
+            <value>&quot;COLEGIOS, ESCUELAS&quot;</value>
+            <value>&quot;COLISEO&quot;</value>
+            <value>&quot;COMEDORES Y/O COCINA&quot;</value>
+            <value>&quot;COMPRAVENTA&quot;</value>
+            <value>&quot;CONJUNTO RESIDENCIAL&quot;</value>
+            <value>&quot;CONSTRUCCION&quot;</value>
+            <value>&quot;CONSULTORIOS  ODONTOLOGICOS&quot;</value>
+            <value>&quot;CONSULTORIOS MEDICOS&quot;</value>
+            <value>&quot;CORPORACIONES&quot;</value>
+            <value>&quot;DENTRO DE LA VIVIENDA&quot;</value>
+            <value>&quot;DISCOTECAS&quot;</value>
+            <value>&quot;DROGUERIAS, FARMACIAS&quot;</value>
+            <value>&quot;EDIFICIO&quot;</value>
+            <value>&quot;EMPRESA&quot;</value>
+            <value>&quot;ENTIDAD PUBLICA / ESTATAL&quot;</value>
+            <value>&quot;ESCALERAS FIJAS&quot;</value>
+            <value>&quot;ESCENARIOS DEPORTIVOS&quot;</value>
+            <value>&quot;ESTABLECIMIENTO DE COMERCIO&quot;</value>
+            <value>&quot;ESTABLECIMIENTO DE GIROS&quot;</value>
+            <value>&quot;ESTABLECIMIENTO DE SALUD&quot;</value>
+            <value>&quot;ESTABLECIMIENTO EDUCATIVO&quot;</value>
+            <value>&quot;ESTABLECIMIENTO PUBLICO&quot;</value>
+            <value>&quot;ESTABLECIMIENTOS REVISADOS&quot;</value>
+            <value>&quot;ESTACION DE ARTICULADO&quot;</value>
+            <value>&quot;ESTACION M.I.O.&quot;</value>
+            <value>&quot;ESTACION TRANSPORTE MASIVO&quot;</value>
+            <value>&quot;ESTACIONES DE SERVICIO&quot;</value>
+            <value>&quot;ESTADERO&quot;</value>
+            <value>&quot;ESTADIO&quot;</value>
+            <value>&quot;FABRICAS&quot;</value>
+            <value>&quot;FERRERERAS, MARRANERAS Y CABALLERIZAS&quot;</value>
+            <value>&quot;FINCAS Y SIMILARES&quot;</value>
+            <value>&quot;FRENTE A ALMACEN - VIA PUBLICA&quot;</value>
+            <value>&quot;FRENTE A BANCO - VIA PUBLICA&quot;</value>
+            <value>&quot;FRENTE A COLEGIO - VIA PUBLICA&quot;</value>
+            <value>&quot;FRENTE A DISCOTECAS&quot;</value>
+            <value>&quot;FRENTE A EDIFICIO - VIA PUBLICA&quot;</value>
+            <value>&quot;FRENTE A RESIDENCIAS - VIA PUBLICA&quot;</value>
+            <value>&quot;FRENTE A ZOOLÓGICO&quot;</value>
+            <value>&quot;FRENTE CENTRO COMERCIAL&quot;</value>
+            <value>&quot;FRENTE CLINICA U HOSPITAL - VIA PUBLICA&quot;</value>
+            <value>&quot;FRENTE CONJUNTO - VIA PUBLICA&quot;</value>
+            <value>&quot;FRENTE EMPRESA - VIA PUBLICA&quot;</value>
+            <value>&quot;FRENTE IGLESIA - VIA PUBLICA&quot;</value>
+            <value>&quot;FRENTE OFICINA&quot;</value>
+            <value>&quot;FRENTE RESTAURANTE&quot;</value>
+            <value>&quot;FRUTERIA&quot;</value>
+            <value>&quot;FUNERARIA&quot;</value>
+            <value>&quot;GARAJE&quot;</value>
+            <value>&quot;GIMNASIO&quot;</value>
+            <value>&quot;GLORIETA&quot;</value>
+            <value>&quot;GOBERNACION&quot;</value>
+            <value>&quot;GRANEROS&quot;</value>
+            <value>&quot;HACIENDA&quot;</value>
+            <value>&quot;HELADERIA&quot;</value>
+            <value>&quot;HOGAR DE PASO&quot;</value>
+            <value>&quot;HOGARES / GERIATRICO&quot;</value>
+            <value>&quot;HOSPITALES&quot;</value>
+            <value>&quot;HOTELES, RESIDENCIAS, Y SIMILARES.&quot;</value>
+            <value>&quot;IGLESIA&quot;</value>
+            <value>&quot;INSTALACIONES DE FUERZA AREA&quot;</value>
+            <value>&quot;INSTALACIONES DE LA POLICIA&quot;</value>
+            <value>&quot;INSTALACIONES DEL EJERCITO&quot;</value>
+            <value>&quot;INSTALACIONES GUBERNAMENTALES&quot;</value>
+            <value>&quot;INSTALACIONES JUDICIALES&quot;</value>
+            <value>&quot;INTERIOR VEHICULO PARTICULAR&quot;</value>
+            <value>&quot;INTERIOR VEHICULO PONAL&quot;</value>
+            <value>&quot;INTERIOR VEHICULO SERVICIO PUBLICO&quot;</value>
+            <value>&quot;JOYERIAS&quot;</value>
+            <value>&quot;LABORATORIO DE MARIHUANA&quot;</value>
+            <value>&quot;LAVA-AUTOS&quot;</value>
+            <value>&quot;LIBRERIAS&quot;</value>
+            <value>&quot;LICORERA/ESTANCO 24 HORAS&quot;</value>
+            <value>&quot;LOCAL COMERCIAL&quot;</value>
+            <value>&quot;LOTE BALDIO&quot;</value>
+            <value>&quot;LUGAR DE EVENTOS&quot;</value>
+            <value>&quot;LUGAR DE TRABAJO&quot;</value>
+            <value>&quot;MONTALLANTAS&quot;</value>
+            <value>&quot;MÓVIL&quot;</value>
+            <value>&quot;NO DEFINIDO&quot;</value>
+            <value>&quot;OFICINAS&quot;</value>
+            <value>&quot;OTRO&quot;</value>
+            <value>&quot;PANADERIAS&quot;</value>
+            <value>&quot;PARADERO DE BUSES&quot;</value>
+            <value>&quot;PARQUEADERO&quot;</value>
+            <value>&quot;PARQUES&quot;</value>
+            <value>&quot;PELUQUERIA Y SIMILARES&quot;</value>
+            <value>&quot;PERIMETRO URBANO&quot;</value>
+            <value>&quot;PISCINA&quot;</value>
+            <value>&quot;PLAZA DE TOROS&quot;</value>
+            <value>&quot;PLAZAS DE MERCADO&quot;</value>
+            <value>&quot;POTREROS&quot;</value>
+            <value>&quot;PUENTE&quot;</value>
+            <value>&quot;PUENTE PEATONAL&quot;</value>
+            <value>&quot;RESTAURANTES&quot;</value>
+            <value>&quot;RIOS&quot;</value>
+            <value>&quot;RODANDO SOBRE VIA - VIA PUBLICA&quot;</value>
+            <value>&quot;SALAS DE CINE&quot;</value>
+            <value>&quot;SALON COMUNAL&quot;</value>
+            <value>&quot;SALON JUEGO DIVERSION&quot;</value>
+            <value>&quot;SECTOR COMERCIO&quot;</value>
+            <value>&quot;SECTOR INDUSTRIA&quot;</value>
+            <value>&quot;SECTOR RESIDENCIAS&quot;</value>
+            <value>&quot;SEDE POLITICA&quot;</value>
+            <value>&quot;SEDES SOCIALES, CLUBES O SIMILARES&quot;</value>
+            <value>&quot;SEMÁFORO&quot;</value>
+            <value>&quot;SENDERO PEATONAL&quot;</value>
+            <value>&quot;SOBRE ANDEN - VIA PUBLICA&quot;</value>
+            <value>&quot;SUPERMERCADOS&quot;</value>
+            <value>&quot;TALLERES&quot;</value>
+            <value>&quot;TALLERES ELECTRICIDAD&quot;</value>
+            <value>&quot;TALLERES LATONERIA&quot;</value>
+            <value>&quot;TALLERES MECANICA&quot;</value>
+            <value>&quot;TEATROS&quot;</value>
+            <value>&quot;TEMPLOS&quot;</value>
+            <value>&quot;TERMINAL DE TRANSPORTES&quot;</value>
+            <value>&quot;TIENDA&quot;</value>
+            <value>&quot;TRAMO DE VIA&quot;</value>
+            <value>&quot;TRANSPORTE ESCOLAR&quot;</value>
+            <value>&quot;TRANSPORTE INTERMUNICIPAL&quot;</value>
+            <value>&quot;TRANSPORTE MASIVO&quot;</value>
+            <value>&quot;TRANSPORTE PÚBLICO&quot;</value>
+            <value>&quot;TRANSPORTE PUBLICO URBANO&quot;</value>
+            <value>&quot;TROCHA&quot;</value>
+            <value>&quot;UNIVERSIDADES&quot;</value>
+            <value>&quot;VEHICULO&quot;</value>
+            <value>&quot;VEHICULO BEAT&quot;</value>
+            <value>&quot;VEHICULO DE UBER&quot;</value>
+            <value>&quot;VEHICULO MOTO&quot;</value>
+            <value>&quot;VEHICULO TAXI&quot;</value>
+            <value>&quot;VEHICULO UBER&quot;</value>
+            <value>&quot;VELODROMO&quot;</value>
+            <value>&quot;ZONA DE PARQUEO&quot;</value>
+            <value>&quot;ZONAS AZULES - VIA PUBLICA&quot;</value>
+          </bin>
+        </calculation>
+      </column>
+      <column aggregation='None' caption='Rango edades' datatype='integer' name='[Edad (bin)]' role='dimension' type='ordinal'>
+        <calculation class='bin' decimals='1' formula='[edad]' peg='0' size='20' />
+      </column>
+      <_.fcp.ObjectModelTableType.true...column caption='HURTO_PERSONAS.csv' datatype='table' name='[__tableau_internal_object_id__].[HURTO_PERSONAS.csv_DB731CEE64104341B50C1D6154607D46]' role='measure' type='quantitative' />
+      <column caption='_Id' datatype='real' name='[_id]' role='dimension' type='ordinal' />
+      <column caption='Anio' datatype='integer' name='[anio]' role='measure' type='quantitative' />
+      <column caption='Arma Empleada' datatype='string' name='[arma_empleada]' role='dimension' type='nominal' />
+      <column caption='Barrio' datatype='string' name='[barrio]' role='dimension' type='nominal' />
+      <column caption='Cantidad' datatype='integer' name='[cantidad]' role='measure' type='quantitative' />
+      <column caption='Clase Empleado' datatype='string' name='[clase_empleado]' role='dimension' type='nominal' />
+      <column caption='Clase Sitio' datatype='string' name='[clase_sitio]' role='dimension' type='nominal' />
+      <column caption='Code Dane' datatype='string' name='[code_dane]' role='dimension' type='nominal' />
+      <column caption='Codigo Dane' datatype='integer' name='[codigo_dane]' role='measure' type='quantitative' />
+      <column caption='Departamento' datatype='string' name='[departamento]' role='dimension' type='nominal' />
+      <column caption='Dept Code Dane' datatype='integer' name='[dept_code_dane]' role='measure' type='quantitative' />
+      <column caption='Dia Semana' datatype='string' name='[dia_semana]' role='dimension' type='nominal' />
+      <column caption='Edad' datatype='integer' name='[edad]' role='measure' type='quantitative' />
+      <column caption='Escolaridad' datatype='string' name='[escolaridad]' role='dimension' type='nominal' />
+      <column caption='Estado Civil' datatype='string' name='[estado_civil]' role='dimension' type='nominal' />
+      <column caption='Fecha' datatype='date' name='[fecha]' role='dimension' type='ordinal' />
+      <column aggregation='Hour' caption='Hora' datatype='datetime' name='[hora]' role='dimension' type='ordinal' />
+      <column caption='Mes' datatype='string' name='[mes]' role='dimension' type='nominal' />
+      <column caption='Movil Agresor' datatype='string' name='[movil_agresor]' role='dimension' type='nominal' />
+      <column caption='Movil Victima' datatype='string' name='[movil_victima]' role='dimension' type='nominal' />
+      <column caption='Muni Code Dane' datatype='integer' name='[muni_code_dane]' role='measure' type='quantitative' />
+      <column caption='Municipio' datatype='string' name='[municipio]' role='dimension' type='nominal' />
+      <column caption='Pais Nacimiento' datatype='string' name='[pais_nacimiento]' role='dimension' type='nominal' />
+      <column caption='Profesion' datatype='string' name='[profesion]' role='dimension' type='nominal' />
+      <column caption='Sexo' datatype='string' name='[sexo]' role='dimension' type='nominal' />
+      <column caption='Utc Datetime' datatype='datetime' name='[utc_datetime]' role='dimension' type='ordinal' />
+      <column caption='Zona' datatype='string' name='[zona]' role='dimension' type='nominal' />
+      <column-instance column='[clase_sitio]' derivation='None' name='[none:clase_sitio:nk]' pivot='key' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:clase_sitio:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;BILLARES&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;CEMENTERIO&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;ESTACION TRANSPORTE MASIVO&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;ESTADERO&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;HOSPITALES&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;INSTALACIONES DEL EJERCITO&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;SEMÁFORO&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;UNIVERSIDADES&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;VEHICULO UBER&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;CASA DE LENOCINIO&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;ESTACION DE ARTICULADO&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;FRENTE A DISCOTECAS&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;PANADERIAS&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;RESTAURANTES&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;SALON JUEGO DIVERSION&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;TALLERES&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;TALLERES ELECTRICIDAD&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;VEHICULO MOTO&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;VIAS PUBLICAS&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;-&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;ALCALDIA&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;BARES, CANTINAS Y SIMILARES&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;BOSQUES&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;CANCHAS DE RANA&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;ESCALERAS FIJAS&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;FRENTE A BANCO - VIA PUBLICA&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;HOTELES, RESIDENCIAS, Y SIMILARES.&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;INTERIOR VEHICULO PARTICULAR&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;SENDERO PEATONAL&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;ALIMENTADOR BUS M.I.O.&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;BAÑOS&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;BUS MEGABUS&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;CENTROS RELIGIOSOS&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;EDIFICIO&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;FRENTE RESTAURANTE&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;POTREROS&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;SUPERMERCADOS&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;TALLERES MECANICA&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;BAHIA&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;BIBLIOTECA&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;CASINOS&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;ESTABLECIMIENTO DE GIROS&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;ESTABLECIMIENTO EDUCATIVO&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;PARQUEADERO&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;PELUQUERIA Y SIMILARES&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;TRANSPORTE PUBLICO URBANO&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;TROCHA&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;BUS TRANSMETRO&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;CORPORACIONES&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;ESTABLECIMIENTO DE COMERCIO&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;ESTABLECIMIENTO PUBLICO&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;ESTACION M.I.O.&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;FRENTE A ALMACEN - VIA PUBLICA&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;IGLESIA&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;MONTALLANTAS&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;OTRO&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;PLAZAS DE MERCADO&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;ALIMENTADOR BUS TRANSMETRO&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;CONSULTORIOS  ODONTOLOGICOS&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;EMPRESA&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;FABRICAS&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;INSTALACIONES DE LA POLICIA&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;LICORERA/ESTANCO 24 HORAS&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;RIOS&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;TRANSPORTE ESCOLAR&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;VEHICULO&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;BODEGAS Y SIMILARES&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;CAÑOS&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;CASA EN CONJUNTO CERRADO&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;COMEDORES Y/O COCINA&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;FRENTE A RESIDENCIAS - VIA PUBLICA&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;HOGARES / GERIATRICO&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;PARQUES&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;RODANDO SOBRE VIA - VIA PUBLICA&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;SALAS DE CINE&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;ZONAS AZULES - VIA PUBLICA&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;ALMACENES&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;CANCHA DE FUTBOL&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;COMPRAVENTA&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;DROGUERIAS, FARMACIAS&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;ESTABLECIMIENTOS REVISADOS&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;FINCAS Y SIMILARES&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;INSTALACIONES DE FUERZA AREA&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;LOTE BALDIO&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;PLAZA DE TOROS&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;AREA DE VACUNACION&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;BOMBA DE GASOLINA&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;BUS METROPLUS&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;COLISEO&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;FRENTE IGLESIA - VIA PUBLICA&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;GARAJE&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;GLORIETA&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;GRANEROS&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;OFICINAS&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;TRANSPORTE INTERMUNICIPAL&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;CAJERO AUTOMATICO&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;CASAS DE APUESTAS&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;CONJUNTO RESIDENCIAL&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;LIBRERIAS&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;LUGAR DE EVENTOS&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;PISCINA&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;PUENTE&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;PUENTE PEATONAL&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;VEHICULO DE UBER&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;ESTABLECIMIENTO DE SALUD&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;FRENTE CLINICA U HOSPITAL - VIA PUBLICA&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;HOGAR DE PASO&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;INTERIOR VEHICULO PONAL&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;LAVA-AUTOS&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;PARADERO DE BUSES&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;SEDES SOCIALES, CLUBES O SIMILARES&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;SOBRE ANDEN - VIA PUBLICA&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;TALLERES LATONERIA&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;CAFE INTERNET&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;CAFETERIAS&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;FRENTE A EDIFICIO - VIA PUBLICA&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;HACIENDA&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;HELADERIA&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;INSTALACIONES JUDICIALES&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;INTERIOR VEHICULO SERVICIO PUBLICO&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;VEHICULO BEAT&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;VEHICULO TAXI&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;CARRIL EXCLUSIVO TRANSPORTE MASIVO&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;CONSULTORIOS MEDICOS&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;FRENTE OFICINA&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;NO DEFINIDO&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;TEMPLOS&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;TERMINAL DE TRANSPORTES&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;TIENDA&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;TRAMO DE VIA&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;VELODROMO&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;APARTAMENTO&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;BUS TRANSMILENIO&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;CASETA VIGILANCIA CONJUNTO RESIDENCIAL&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;CENTRO TURÍSTICO&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;FRENTE A COLEGIO - VIA PUBLICA&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;GIMNASIO&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;LOCAL COMERCIAL&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;SEDE POLITICA&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;TRANSPORTE MASIVO&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;AEROPUERTO&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;ALIMENTADOR BUS TRANSMILENIO&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;CALLEJÓN&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;CENTRO COMERCIAL&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;CICLO RUTA&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;ENTIDAD PUBLICA / ESTATAL&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;FRENTE A ZOOLÓGICO&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;FRENTE CONJUNTO - VIA PUBLICA&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;SALON COMUNAL&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;TRANSPORTE PÚBLICO&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;APARTAMENTO EN CONJUNTO CERRADO&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;AUDITORIOS&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;CASAS DE HABITACION&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;CASETA VIGILANCIA EMPRESAS&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;COLEGIOS, ESCUELAS&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;ESCENARIOS DEPORTIVOS&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;FRUTERIA&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;INSTALACIONES GUBERNAMENTALES&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;MÓVIL&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;ZONA DE PARQUEO&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;CARRETERA&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;CASETA COMUNAL&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;ESTACIONES DE SERVICIO&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;ESTADIO&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;FRENTE EMPRESA - VIA PUBLICA&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;GOBERNACION&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;JOYERIAS&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;PERIMETRO URBANO&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;SECTOR COMERCIO&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;BUS MASIVO INTEGRAL DE OCCIDENTE M.I.O.&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;BUS METROLINEA&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;CLINICAS Y SIMILARES&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;CONSTRUCCION&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;FRENTE CENTRO COMERCIAL&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;FUNERARIA&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;LUGAR DE TRABAJO&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;SECTOR INDUSTRIA&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;TEATROS&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;ALIMENTADOR BUS MEGABUS&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;ALOJAMIENTO&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;BANCOS&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;CARCELES&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;CENTRO RECREACIONAL&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;DENTRO DE LA VIVIENDA&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;DISCOTECAS&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;FERRERERAS, MARRANERAS Y CABALLERIZAS&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;LABORATORIO DE MARIHUANA&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;SECTOR RESIDENCIAS&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[Clase Sitio (group)]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;BILLARES&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;CEMENTERIO&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;ESTACION TRANSPORTE MASIVO&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;ESTADERO&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;HOSPITALES&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;INSTALACIONES DEL EJERCITO&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;SEMÁFORO&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;UNIVERSIDADES&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;VEHICULO UBER&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;CASA DE LENOCINIO&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;ESTACION DE ARTICULADO&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;FRENTE A DISCOTECAS&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;PANADERIAS&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;RESTAURANTES&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;SALON JUEGO DIVERSION&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;TALLERES&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;TALLERES ELECTRICIDAD&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;VEHICULO MOTO&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;VIAS PUBLICAS&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;-&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;ALCALDIA&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;BARES, CANTINAS Y SIMILARES&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;BOSQUES&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;CANCHAS DE RANA&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;ESCALERAS FIJAS&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;FRENTE A BANCO - VIA PUBLICA&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;HOTELES, RESIDENCIAS, Y SIMILARES.&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;INTERIOR VEHICULO PARTICULAR&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;SENDERO PEATONAL&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;ALIMENTADOR BUS M.I.O.&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;BAÑOS&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;BUS MEGABUS&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;CENTROS RELIGIOSOS&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;EDIFICIO&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;FRENTE RESTAURANTE&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;POTREROS&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;SUPERMERCADOS&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;TALLERES MECANICA&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;BAHIA&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;BIBLIOTECA&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;CASINOS&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;ESTABLECIMIENTO DE GIROS&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;ESTABLECIMIENTO EDUCATIVO&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;PARQUEADERO&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;PELUQUERIA Y SIMILARES&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;TRANSPORTE PUBLICO URBANO&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;TROCHA&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;BUS TRANSMETRO&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;CORPORACIONES&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;ESTABLECIMIENTO DE COMERCIO&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;ESTABLECIMIENTO PUBLICO&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;ESTACION M.I.O.&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;FRENTE A ALMACEN - VIA PUBLICA&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;IGLESIA&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;MONTALLANTAS&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;OTRO&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;PLAZAS DE MERCADO&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;ALIMENTADOR BUS TRANSMETRO&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;CONSULTORIOS  ODONTOLOGICOS&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;EMPRESA&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;FABRICAS&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;INSTALACIONES DE LA POLICIA&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;LICORERA/ESTANCO 24 HORAS&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;RIOS&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;TRANSPORTE ESCOLAR&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;VEHICULO&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;BODEGAS Y SIMILARES&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;CAÑOS&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;CASA EN CONJUNTO CERRADO&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;COMEDORES Y/O COCINA&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;FRENTE A RESIDENCIAS - VIA PUBLICA&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;HOGARES / GERIATRICO&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;PARQUES&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;RODANDO SOBRE VIA - VIA PUBLICA&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;SALAS DE CINE&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;ZONAS AZULES - VIA PUBLICA&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;ALMACENES&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;CANCHA DE FUTBOL&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;COMPRAVENTA&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;DROGUERIAS, FARMACIAS&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;ESTABLECIMIENTOS REVISADOS&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;FINCAS Y SIMILARES&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;INSTALACIONES DE FUERZA AREA&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;LOTE BALDIO&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;PLAZA DE TOROS&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;AREA DE VACUNACION&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;BOMBA DE GASOLINA&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;BUS METROPLUS&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;COLISEO&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;FRENTE IGLESIA - VIA PUBLICA&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;GARAJE&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;GLORIETA&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;GRANEROS&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;OFICINAS&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;TRANSPORTE INTERMUNICIPAL&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;CAJERO AUTOMATICO&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;CASAS DE APUESTAS&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;CONJUNTO RESIDENCIAL&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;LIBRERIAS&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;LUGAR DE EVENTOS&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;PISCINA&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;PUENTE&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;PUENTE PEATONAL&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;VEHICULO DE UBER&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;ESTABLECIMIENTO DE SALUD&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;FRENTE CLINICA U HOSPITAL - VIA PUBLICA&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;HOGAR DE PASO&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;INTERIOR VEHICULO PONAL&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;LAVA-AUTOS&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;PARADERO DE BUSES&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;SEDES SOCIALES, CLUBES O SIMILARES&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;SOBRE ANDEN - VIA PUBLICA&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;TALLERES LATONERIA&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;CAFE INTERNET&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;CAFETERIAS&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;FRENTE A EDIFICIO - VIA PUBLICA&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;HACIENDA&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;HELADERIA&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;INSTALACIONES JUDICIALES&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;INTERIOR VEHICULO SERVICIO PUBLICO&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;VEHICULO BEAT&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;VEHICULO TAXI&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;CARRIL EXCLUSIVO TRANSPORTE MASIVO&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;CONSULTORIOS MEDICOS&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;FRENTE OFICINA&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;NO DEFINIDO&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;TEMPLOS&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;TERMINAL DE TRANSPORTES&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;TIENDA&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;TRAMO DE VIA&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;VELODROMO&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;APARTAMENTO&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;BUS TRANSMILENIO&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;CASETA VIGILANCIA CONJUNTO RESIDENCIAL&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;CENTRO TURÍSTICO&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;FRENTE A COLEGIO - VIA PUBLICA&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;GIMNASIO&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;LOCAL COMERCIAL&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;SEDE POLITICA&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;TRANSPORTE MASIVO&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;AEROPUERTO&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;ALIMENTADOR BUS TRANSMILENIO&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;CALLEJÓN&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;CENTRO COMERCIAL&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;CICLO RUTA&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;ENTIDAD PUBLICA / ESTATAL&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;FRENTE A ZOOLÓGICO&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;FRENTE CONJUNTO - VIA PUBLICA&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;SALON COMUNAL&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;TRANSPORTE PÚBLICO&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;APARTAMENTO EN CONJUNTO CERRADO&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;AUDITORIOS&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;CASAS DE HABITACION&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;CASETA VIGILANCIA EMPRESAS&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;COLEGIOS, ESCUELAS&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;ESCENARIOS DEPORTIVOS&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;FRUTERIA&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;INSTALACIONES GUBERNAMENTALES&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;MÓVIL&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;ZONA DE PARQUEO&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;CARRETERA&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;CASETA COMUNAL&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;ESTACIONES DE SERVICIO&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;ESTADIO&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;FRENTE EMPRESA - VIA PUBLICA&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;GOBERNACION&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;JOYERIAS&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;PERIMETRO URBANO&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;SECTOR COMERCIO&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;BUS MASIVO INTEGRAL DE OCCIDENTE M.I.O.&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;BUS METROLINEA&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;CLINICAS Y SIMILARES&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;CONSTRUCCION&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;FRENTE CENTRO COMERCIAL&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;FUNERARIA&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;LUGAR DE TRABAJO&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;SECTOR INDUSTRIA&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;TEATROS&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;ALIMENTADOR BUS MEGABUS&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;ALOJAMIENTO&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;BANCOS&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;CARCELES&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;CENTRO RECREACIONAL&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;DENTRO DE LA VIVIENDA&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;DISCOTECAS&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;FERRERERAS, MARRANERAS Y CABALLERIZAS&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;LABORATORIO DE MARIHUANA&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;SECTOR RESIDENCIAS&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='HURTO_PERSONAS.csv' id='HURTO_PERSONAS.csv_DB731CEE64104341B50C1D6154607D46'>
+            <properties context=''>
+              <relation connection='textscan.157m8k81cg3gtx10ofobd0b1r1uj' name='HURTO_PERSONAS.csv' table='[HURTO_PERSONAS#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='real' name='_id' ordinal='1' />
+                  <column datatype='date' name='fecha' ordinal='2' />
+                  <column datatype='string' name='departamento' ordinal='3' />
+                  <column datatype='string' name='municipio' ordinal='4' />
+                  <column datatype='string' name='dia_semana' ordinal='5' />
+                  <column datatype='datetime' name='hora' ordinal='6' />
+                  <column datatype='string' name='barrio' ordinal='7' />
+                  <column datatype='string' name='zona' ordinal='8' />
+                  <column datatype='string' name='clase_sitio' ordinal='9' />
+                  <column datatype='string' name='arma_empleada' ordinal='10' />
+                  <column datatype='string' name='movil_agresor' ordinal='11' />
+                  <column datatype='string' name='movil_victima' ordinal='12' />
+                  <column datatype='integer' name='edad' ordinal='13' />
+                  <column datatype='string' name='sexo' ordinal='14' />
+                  <column datatype='string' name='estado_civil' ordinal='15' />
+                  <column datatype='string' name='pais_nacimiento' ordinal='16' />
+                  <column datatype='string' name='clase_empleado' ordinal='17' />
+                  <column datatype='string' name='profesion' ordinal='18' />
+                  <column datatype='string' name='escolaridad' ordinal='19' />
+                  <column datatype='integer' name='codigo_dane' ordinal='20' />
+                  <column datatype='integer' name='cantidad' ordinal='21' />
+                  <column datatype='integer' name='anio' ordinal='22' />
+                  <column datatype='string' name='mes' ordinal='23' />
+                  <column datatype='datetime' name='utc_datetime' ordinal='24' />
+                  <column datatype='integer' name='dept_code_dane' ordinal='25' />
+                  <column datatype='integer' name='muni_code_dane' ordinal='26' />
+                  <column datatype='string' name='code_dane' ordinal='27' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Edades y sexo'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='HURTO_PERSONAS' name='federated.0sqfkwa1rlf17316dzuou0u1c5zl' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0sqfkwa1rlf17316dzuou0u1c5zl'>
+            <column aggregation='None' caption='Rango edades' datatype='integer' name='[Edad (bin)]' role='dimension' type='ordinal'>
+              <calculation class='bin' decimals='1' formula='[edad]' peg='0' size='20' />
+            </column>
+            <column caption='Cantidad' datatype='integer' name='[cantidad]' role='measure' type='quantitative' />
+            <column caption='Edad' datatype='integer' name='[edad]' role='measure' type='quantitative' />
+            <column-instance column='[Edad (bin)]' derivation='None' name='[none:Edad (bin):ok]' pivot='key' type='ordinal' />
+            <column-instance column='[sexo]' derivation='None' name='[none:sexo:nk]' pivot='key' type='nominal' />
+            <column caption='Sexo' datatype='string' name='[sexo]' role='dimension' type='nominal' />
+            <column-instance column='[cantidad]' derivation='Sum' name='[sum:cantidad:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0sqfkwa1rlf17316dzuou0u1c5zl].[none:sexo:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0sqfkwa1rlf17316dzuou0u1c5zl].[sum:cantidad:qk]</rows>
+        <cols>[federated.0sqfkwa1rlf17316dzuou0u1c5zl].[none:Edad (bin):ok]</cols>
+      </table>
+      <simple-id uuid='{83A621C5-0E19-4DF6-88EA-9AD57E52EB0B}' />
+    </worksheet>
+    <worksheet name='Edades y sexo (2)'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='HURTO_PERSONAS' name='federated.0sqfkwa1rlf17316dzuou0u1c5zl' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0sqfkwa1rlf17316dzuou0u1c5zl'>
+            <column caption='Cantidad' datatype='integer' name='[cantidad]' role='measure' type='quantitative' />
+            <column caption='Movil Victima' datatype='string' name='[movil_victima]' role='dimension' type='nominal' />
+            <column-instance column='[movil_victima]' derivation='None' name='[none:movil_victima:nk]' pivot='key' type='nominal' />
+            <column-instance column='[cantidad]' derivation='Sum' name='[sum:cantidad:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>([federated.0sqfkwa1rlf17316dzuou0u1c5zl].[none:movil_victima:nk] * [federated.0sqfkwa1rlf17316dzuou0u1c5zl].[sum:cantidad:qk])</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{8B607A3C-B9E7-4623-A4E7-8ABD15DE40C6}' />
+    </worksheet>
+    <worksheet name='Tipos de sitio'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='HURTO_PERSONAS' name='federated.0sqfkwa1rlf17316dzuou0u1c5zl' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0sqfkwa1rlf17316dzuou0u1c5zl'>
+            <column caption='Tipo Sitio' datatype='string' name='[Clase Sitio (group)]' role='dimension' type='nominal'>
+              <calculation class='categorical-bin' column='[clase_sitio]' new-bin='true'>
+                <bin default-name='false' value='&quot;Otros sitios&quot;'>
+                  <value>&quot;-&quot;</value>
+                  <value>&quot;AEROPUERTO&quot;</value>
+                  <value>&quot;ALCALDIA&quot;</value>
+                  <value>&quot;ALIMENTADOR BUS M.I.O.&quot;</value>
+                  <value>&quot;ALIMENTADOR BUS MEGABUS&quot;</value>
+                  <value>&quot;ALIMENTADOR BUS TRANSMETRO&quot;</value>
+                  <value>&quot;ALIMENTADOR BUS TRANSMILENIO&quot;</value>
+                  <value>&quot;ALMACENES&quot;</value>
+                  <value>&quot;ALOJAMIENTO&quot;</value>
+                  <value>&quot;APARTAMENTO&quot;</value>
+                  <value>&quot;APARTAMENTO EN CONJUNTO CERRADO&quot;</value>
+                  <value>&quot;AREA DE VACUNACION&quot;</value>
+                  <value>&quot;AUDITORIOS&quot;</value>
+                  <value>&quot;BAHIA&quot;</value>
+                  <value>&quot;BANCOS&quot;</value>
+                  <value>&quot;BAÑOS&quot;</value>
+                  <value>&quot;BARES, CANTINAS Y SIMILARES&quot;</value>
+                  <value>&quot;BIBLIOTECA&quot;</value>
+                  <value>&quot;BILLARES&quot;</value>
+                  <value>&quot;BODEGAS Y SIMILARES&quot;</value>
+                  <value>&quot;BOMBA DE GASOLINA&quot;</value>
+                  <value>&quot;BOSQUES&quot;</value>
+                  <value>&quot;BUS MASIVO INTEGRAL DE OCCIDENTE M.I.O.&quot;</value>
+                  <value>&quot;BUS MEGABUS&quot;</value>
+                  <value>&quot;BUS METROLINEA&quot;</value>
+                  <value>&quot;BUS METROPLUS&quot;</value>
+                  <value>&quot;BUS TRANSMETRO&quot;</value>
+                  <value>&quot;BUS TRANSMILENIO&quot;</value>
+                  <value>&quot;CAFE INTERNET&quot;</value>
+                  <value>&quot;CAFETERIAS&quot;</value>
+                  <value>&quot;CAJERO AUTOMATICO&quot;</value>
+                  <value>&quot;CALLEJÓN&quot;</value>
+                  <value>&quot;CANCHA DE FUTBOL&quot;</value>
+                  <value>&quot;CANCHAS DE RANA&quot;</value>
+                  <value>&quot;CAÑOS&quot;</value>
+                  <value>&quot;CARCELES&quot;</value>
+                  <value>&quot;CARRETERA&quot;</value>
+                  <value>&quot;CARRIL EXCLUSIVO TRANSPORTE MASIVO&quot;</value>
+                  <value>&quot;CASA DE LENOCINIO&quot;</value>
+                  <value>&quot;CASA EN CONJUNTO CERRADO&quot;</value>
+                  <value>&quot;CASAS DE APUESTAS&quot;</value>
+                  <value>&quot;CASAS DE HABITACION&quot;</value>
+                  <value>&quot;CASETA COMUNAL&quot;</value>
+                  <value>&quot;CASETA VIGILANCIA CONJUNTO RESIDENCIAL&quot;</value>
+                  <value>&quot;CASETA VIGILANCIA EMPRESAS&quot;</value>
+                  <value>&quot;CASINOS&quot;</value>
+                  <value>&quot;CEMENTERIO&quot;</value>
+                  <value>&quot;CENTRO COMERCIAL&quot;</value>
+                  <value>&quot;CENTRO RECREACIONAL&quot;</value>
+                  <value>&quot;CENTRO TURÍSTICO&quot;</value>
+                  <value>&quot;CENTROS RELIGIOSOS&quot;</value>
+                  <value>&quot;CICLO RUTA&quot;</value>
+                  <value>&quot;CLINICAS Y SIMILARES&quot;</value>
+                  <value>&quot;COLEGIOS, ESCUELAS&quot;</value>
+                  <value>&quot;COLISEO&quot;</value>
+                  <value>&quot;COMEDORES Y/O COCINA&quot;</value>
+                  <value>&quot;COMPRAVENTA&quot;</value>
+                  <value>&quot;CONJUNTO RESIDENCIAL&quot;</value>
+                  <value>&quot;CONSTRUCCION&quot;</value>
+                  <value>&quot;CONSULTORIOS  ODONTOLOGICOS&quot;</value>
+                  <value>&quot;CONSULTORIOS MEDICOS&quot;</value>
+                  <value>&quot;CORPORACIONES&quot;</value>
+                  <value>&quot;DENTRO DE LA VIVIENDA&quot;</value>
+                  <value>&quot;DISCOTECAS&quot;</value>
+                  <value>&quot;DROGUERIAS, FARMACIAS&quot;</value>
+                  <value>&quot;EDIFICIO&quot;</value>
+                  <value>&quot;EMPRESA&quot;</value>
+                  <value>&quot;ENTIDAD PUBLICA / ESTATAL&quot;</value>
+                  <value>&quot;ESCALERAS FIJAS&quot;</value>
+                  <value>&quot;ESCENARIOS DEPORTIVOS&quot;</value>
+                  <value>&quot;ESTABLECIMIENTO DE COMERCIO&quot;</value>
+                  <value>&quot;ESTABLECIMIENTO DE GIROS&quot;</value>
+                  <value>&quot;ESTABLECIMIENTO DE SALUD&quot;</value>
+                  <value>&quot;ESTABLECIMIENTO EDUCATIVO&quot;</value>
+                  <value>&quot;ESTABLECIMIENTO PUBLICO&quot;</value>
+                  <value>&quot;ESTABLECIMIENTOS REVISADOS&quot;</value>
+                  <value>&quot;ESTACION DE ARTICULADO&quot;</value>
+                  <value>&quot;ESTACION M.I.O.&quot;</value>
+                  <value>&quot;ESTACION TRANSPORTE MASIVO&quot;</value>
+                  <value>&quot;ESTACIONES DE SERVICIO&quot;</value>
+                  <value>&quot;ESTADERO&quot;</value>
+                  <value>&quot;ESTADIO&quot;</value>
+                  <value>&quot;FABRICAS&quot;</value>
+                  <value>&quot;FERRERERAS, MARRANERAS Y CABALLERIZAS&quot;</value>
+                  <value>&quot;FINCAS Y SIMILARES&quot;</value>
+                  <value>&quot;FRENTE A ALMACEN - VIA PUBLICA&quot;</value>
+                  <value>&quot;FRENTE A BANCO - VIA PUBLICA&quot;</value>
+                  <value>&quot;FRENTE A COLEGIO - VIA PUBLICA&quot;</value>
+                  <value>&quot;FRENTE A DISCOTECAS&quot;</value>
+                  <value>&quot;FRENTE A EDIFICIO - VIA PUBLICA&quot;</value>
+                  <value>&quot;FRENTE A RESIDENCIAS - VIA PUBLICA&quot;</value>
+                  <value>&quot;FRENTE A ZOOLÓGICO&quot;</value>
+                  <value>&quot;FRENTE CENTRO COMERCIAL&quot;</value>
+                  <value>&quot;FRENTE CLINICA U HOSPITAL - VIA PUBLICA&quot;</value>
+                  <value>&quot;FRENTE CONJUNTO - VIA PUBLICA&quot;</value>
+                  <value>&quot;FRENTE EMPRESA - VIA PUBLICA&quot;</value>
+                  <value>&quot;FRENTE IGLESIA - VIA PUBLICA&quot;</value>
+                  <value>&quot;FRENTE OFICINA&quot;</value>
+                  <value>&quot;FRENTE RESTAURANTE&quot;</value>
+                  <value>&quot;FRUTERIA&quot;</value>
+                  <value>&quot;FUNERARIA&quot;</value>
+                  <value>&quot;GARAJE&quot;</value>
+                  <value>&quot;GIMNASIO&quot;</value>
+                  <value>&quot;GLORIETA&quot;</value>
+                  <value>&quot;GOBERNACION&quot;</value>
+                  <value>&quot;GRANEROS&quot;</value>
+                  <value>&quot;HACIENDA&quot;</value>
+                  <value>&quot;HELADERIA&quot;</value>
+                  <value>&quot;HOGAR DE PASO&quot;</value>
+                  <value>&quot;HOGARES / GERIATRICO&quot;</value>
+                  <value>&quot;HOSPITALES&quot;</value>
+                  <value>&quot;HOTELES, RESIDENCIAS, Y SIMILARES.&quot;</value>
+                  <value>&quot;IGLESIA&quot;</value>
+                  <value>&quot;INSTALACIONES DE FUERZA AREA&quot;</value>
+                  <value>&quot;INSTALACIONES DE LA POLICIA&quot;</value>
+                  <value>&quot;INSTALACIONES DEL EJERCITO&quot;</value>
+                  <value>&quot;INSTALACIONES GUBERNAMENTALES&quot;</value>
+                  <value>&quot;INSTALACIONES JUDICIALES&quot;</value>
+                  <value>&quot;INTERIOR VEHICULO PARTICULAR&quot;</value>
+                  <value>&quot;INTERIOR VEHICULO PONAL&quot;</value>
+                  <value>&quot;INTERIOR VEHICULO SERVICIO PUBLICO&quot;</value>
+                  <value>&quot;JOYERIAS&quot;</value>
+                  <value>&quot;LABORATORIO DE MARIHUANA&quot;</value>
+                  <value>&quot;LAVA-AUTOS&quot;</value>
+                  <value>&quot;LIBRERIAS&quot;</value>
+                  <value>&quot;LICORERA/ESTANCO 24 HORAS&quot;</value>
+                  <value>&quot;LOCAL COMERCIAL&quot;</value>
+                  <value>&quot;LOTE BALDIO&quot;</value>
+                  <value>&quot;LUGAR DE EVENTOS&quot;</value>
+                  <value>&quot;LUGAR DE TRABAJO&quot;</value>
+                  <value>&quot;MONTALLANTAS&quot;</value>
+                  <value>&quot;MÓVIL&quot;</value>
+                  <value>&quot;NO DEFINIDO&quot;</value>
+                  <value>&quot;OFICINAS&quot;</value>
+                  <value>&quot;OTRO&quot;</value>
+                  <value>&quot;PANADERIAS&quot;</value>
+                  <value>&quot;PARADERO DE BUSES&quot;</value>
+                  <value>&quot;PARQUEADERO&quot;</value>
+                  <value>&quot;PARQUES&quot;</value>
+                  <value>&quot;PELUQUERIA Y SIMILARES&quot;</value>
+                  <value>&quot;PERIMETRO URBANO&quot;</value>
+                  <value>&quot;PISCINA&quot;</value>
+                  <value>&quot;PLAZA DE TOROS&quot;</value>
+                  <value>&quot;PLAZAS DE MERCADO&quot;</value>
+                  <value>&quot;POTREROS&quot;</value>
+                  <value>&quot;PUENTE&quot;</value>
+                  <value>&quot;PUENTE PEATONAL&quot;</value>
+                  <value>&quot;RESTAURANTES&quot;</value>
+                  <value>&quot;RIOS&quot;</value>
+                  <value>&quot;RODANDO SOBRE VIA - VIA PUBLICA&quot;</value>
+                  <value>&quot;SALAS DE CINE&quot;</value>
+                  <value>&quot;SALON COMUNAL&quot;</value>
+                  <value>&quot;SALON JUEGO DIVERSION&quot;</value>
+                  <value>&quot;SECTOR COMERCIO&quot;</value>
+                  <value>&quot;SECTOR INDUSTRIA&quot;</value>
+                  <value>&quot;SECTOR RESIDENCIAS&quot;</value>
+                  <value>&quot;SEDE POLITICA&quot;</value>
+                  <value>&quot;SEDES SOCIALES, CLUBES O SIMILARES&quot;</value>
+                  <value>&quot;SEMÁFORO&quot;</value>
+                  <value>&quot;SENDERO PEATONAL&quot;</value>
+                  <value>&quot;SOBRE ANDEN - VIA PUBLICA&quot;</value>
+                  <value>&quot;SUPERMERCADOS&quot;</value>
+                  <value>&quot;TALLERES&quot;</value>
+                  <value>&quot;TALLERES ELECTRICIDAD&quot;</value>
+                  <value>&quot;TALLERES LATONERIA&quot;</value>
+                  <value>&quot;TALLERES MECANICA&quot;</value>
+                  <value>&quot;TEATROS&quot;</value>
+                  <value>&quot;TEMPLOS&quot;</value>
+                  <value>&quot;TERMINAL DE TRANSPORTES&quot;</value>
+                  <value>&quot;TIENDA&quot;</value>
+                  <value>&quot;TRAMO DE VIA&quot;</value>
+                  <value>&quot;TRANSPORTE ESCOLAR&quot;</value>
+                  <value>&quot;TRANSPORTE INTERMUNICIPAL&quot;</value>
+                  <value>&quot;TRANSPORTE MASIVO&quot;</value>
+                  <value>&quot;TRANSPORTE PÚBLICO&quot;</value>
+                  <value>&quot;TRANSPORTE PUBLICO URBANO&quot;</value>
+                  <value>&quot;TROCHA&quot;</value>
+                  <value>&quot;UNIVERSIDADES&quot;</value>
+                  <value>&quot;VEHICULO&quot;</value>
+                  <value>&quot;VEHICULO BEAT&quot;</value>
+                  <value>&quot;VEHICULO DE UBER&quot;</value>
+                  <value>&quot;VEHICULO MOTO&quot;</value>
+                  <value>&quot;VEHICULO TAXI&quot;</value>
+                  <value>&quot;VEHICULO UBER&quot;</value>
+                  <value>&quot;VELODROMO&quot;</value>
+                  <value>&quot;ZONA DE PARQUEO&quot;</value>
+                  <value>&quot;ZONAS AZULES - VIA PUBLICA&quot;</value>
+                </bin>
+              </calculation>
+            </column>
+            <column caption='Cantidad' datatype='integer' name='[cantidad]' role='measure' type='quantitative' />
+            <column caption='Clase Sitio' datatype='string' name='[clase_sitio]' role='dimension' type='nominal' />
+            <column-instance column='[cantidad]' derivation='Sum' name='[sum:cantidad:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.0sqfkwa1rlf17316dzuou0u1c5zl].[sum:cantidad:qk]' included-values='in-range'>
+            <min>2</min>
+            <max>61878</max>
+          </filter>
+          <slices>
+            <column>[federated.0sqfkwa1rlf17316dzuou0u1c5zl].[sum:cantidad:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.0sqfkwa1rlf17316dzuou0u1c5zl].[Clase Sitio (group)]</rows>
+        <cols>[federated.0sqfkwa1rlf17316dzuou0u1c5zl].[sum:cantidad:qk]</cols>
+      </table>
+      <simple-id uuid='{16FD5B9F-BF37-493B-B373-81A5866B66B2}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' name='Tipos de sitio'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0sqfkwa1rlf17316dzuou0u1c5zl].[none:clase_sitio:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{79A243CA-9F92-4E83-9B63-2C2F9DF76344}' />
+    </window>
+    <window class='worksheet' name='Edades y sexo'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0sqfkwa1rlf17316dzuou0u1c5zl].[none:sexo:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0sqfkwa1rlf17316dzuou0u1c5zl].[none:sexo:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{0FFBB8FC-3ABC-457D-A4E9-164ABCAE978B}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Edades y sexo (2)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0sqfkwa1rlf17316dzuou0u1c5zl].[none:movil_victima:nk]</field>
+            <field>[federated.0sqfkwa1rlf17316dzuou0u1c5zl].[none:sexo:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{AEEE5332-FA99-490C-9FB1-6E7D1F950578}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Edades y sexo' width='192'>
+      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
+      Tv8CEuCBN+tuARoAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Edades y sexo (2)' width='192'>
+      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
+      AElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='119' name='Tipos de sitio' width='192'>
+      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
+      RU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
